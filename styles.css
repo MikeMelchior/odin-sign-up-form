@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: min(3.3vh,3.3vw);
 }
 
 html {
@@ -69,6 +70,7 @@ a {
 
 .photo-cred a {
     color: #bbb;
+    font-size: min(1.8vh, 1.8vw);
 }
 
 .signup-section {
@@ -86,20 +88,41 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    font-size: min(3.3vh,3.3vw);
     text-align: left;
-    height: 30%;
+    height: 25%;
     padding: min(4vw, 4vh);
+    margin: min(1.5vw, 1.5vh) 0vh;
     gap: 0.5rem;
-    text-shadow: 0px -1px 1px black;
+    text-shadow: 0px 1px 1px #707070;
 }
 
 .signup-card {
-    height: min(300px, 30%);
+    height: 30%;
     background-color: #fff;
     box-shadow: 0px 10px 20px -15px #bbb;
 }
 
 .footer {
     flex: auto;
+    text-align: left;
+    padding: min(4vh, 4vw);
+}
+
+.footer button {
+    padding: min(1vh, 1vw); 
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+    background-color: #161616;
+    color: rgb(250, 250, 250);
+    font-size: min(2.5vh, 2.5vw);
+    margin-bottom: min(4vh, 4vw);
+}
+
+.footer p {
+    font-size: min(2vh ,2vw);
+}
+
+.footer a {
+    font-size: min(2vh, 2vw);
+    color: #198;
 }
