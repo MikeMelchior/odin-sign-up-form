@@ -143,7 +143,7 @@ label {
 input {
     width: min(20vw, 300px);
     height: 3vh;
-    border: 1px solid #222;
+    border: 1px solid #efefef;
     border-radius: 6px;
     padding-left: 4px;
     font-size: 1.5vh;
